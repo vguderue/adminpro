@@ -1,13 +1,14 @@
 import { Component, Inject, OnInit } from '@angular/core';
+import { DOCUMENT } from '@angular/platform-browser';
 
 import { SettingsService } from '../../services/service.index';
 
 @Component({
-  selector: 'app-account-settings',
-  templateUrl: './account-settings.component.html',
+  selector: 'app-accout-settings',
+  templateUrl: './accout-settings.component.html',
   styles: []
 })
-export class AccountSettingsComponent implements OnInit {
+export class AccoutSettingsComponent implements OnInit {
 
   constructor( public _ajustes: SettingsService ) { }
 

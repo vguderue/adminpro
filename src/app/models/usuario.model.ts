@@ -1,3 +1,4 @@
+
 export class Usuario {
 
     constructor(
@@ -8,5 +9,8 @@ export class Usuario {
         public role?: string,
         public google?: boolean,
         public _id?: string
-    ) {}
+    ) { }
+
 }
+
+
