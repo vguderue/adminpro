@@ -29,7 +29,7 @@ export class UsuariosComponent implements OnInit {
   }
 
   mostrarModal( id: string ) {
-    this._modalUploadService.mostarModal( 'usuarios', id );
+    this._modalUploadService.mostrarModal( 'usuarios', id );
   }
 
   cargarUsuarios() {
